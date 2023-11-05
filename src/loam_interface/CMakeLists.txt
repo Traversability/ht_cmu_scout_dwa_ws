@@ -19,9 +19,9 @@ find_package(catkin REQUIRED COMPONENTS
 
 
 # find_package(PCL REQUIRED)
-set(PCL_DIR "/usr/local/pcl-1.10/share/pcl-1.10")
+# set(PCL_DIR "/usr/local/pcl-1.10/share/pcl-1.10")
 find_package(PCL 1.10 REQUIRED)
-find_package(VTK 8.2 REQUIRED)
+# find_package(VTK 8.2 REQUIRED)
 
 ###################################
 ## catkin specific configuration ##

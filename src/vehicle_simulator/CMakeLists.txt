@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(vehicle_simulator)
-set(PCL_DIR "/usr/local/pcl-1.10/share/pcl-1.10")
+# set(PCL_DIR "/usr/local/pcl-1.10/share/pcl-1.10")
 find_package(PCL 1.10 REQUIRED)
 set(CMAKE_BUILD_TYPE Release)
 set(BUILD_STATIC_LIBS ON)

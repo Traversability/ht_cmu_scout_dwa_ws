@@ -6,7 +6,7 @@ set(BUILD_STATIC_LIBS ON)
 set(BUILD_SHARED_LIBS OFF)
 set(CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake)
 
-set(PCL_DIR "/usr/local/pcl-1.10/share/pcl-1.10")
+# set(PCL_DIR "/usr/local/pcl-1.10/share/pcl-1.10")
 find_package(PCL 1.10 REQUIRED)
 
 ## Find catkin macros and libraries

@@ -4,6 +4,25 @@
 
 - 下载代码
 
+  ```
+  git@github.com:Traversability/ht_cmu_scout_dwa_ws.git
+  ```
+
+- 安装gazebo插件，如果没安装的话
+
+  ```
+  sudo apt-get install ros-{ros版本}-hector-gazebo-plugins
+  ```
+
+- 初始化工作空间 编译
+
+  ```
+  cd ht_cmu_scout_dwa_ws/src
+  catkin_init_workspace
+  cd ..
+  catkin build #建议catkin build，catkin_make可能编译失败
+  ```
+
 - 下载CMU的仿真模型
 
   ```
